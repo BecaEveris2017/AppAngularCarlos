@@ -2,3 +2,14 @@
     background-color: yellow;
     color: black;
 }
+
+.button_show{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 9px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}

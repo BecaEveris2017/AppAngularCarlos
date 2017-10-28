@@ -19,7 +19,7 @@
   </li>
 </ul>
 
-<div class="black">
+<div class="black" *ngIf="stats">
   <ul>
     <li *ngFor="let color of colores">
       {{color}}
@@ -29,3 +29,4 @@
     <input #color placeholder="Type to add new color" type="text" name="addColor">
   </form>
 </div>>
+<button (click)="showArrayColors()" class="button_show">{{message}}</button>
